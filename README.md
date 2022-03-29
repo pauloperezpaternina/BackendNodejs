@@ -1,10 +1,10 @@
-# BackendNodejs
+# BackendNodejs 
 
-# Fundamentos
+## Fundamentos
 
 Ejercicios con Nodejs
 
-## Installation
+### Installation
 
 Clonar.
 
@@ -15,14 +15,14 @@ npm install -g nodemon
 npm install -g pm2
 ```
 
-## Usage
+### Usage
 
 ```nodejs
 NOMBRE=PAULO, WEB=bittronic.net nodemon Fundamentos/entornos.js 
 
 NOMBRE=PAULO, WEB=bittronic.net pm2 start Fundamentos/entornos.js 
 ```
-## pm2
+### pm2
 Runtime Edition
 
         PM2 is a Production Process Manager for Node.js applications
@@ -43,5 +43,12 @@ Runtime Edition
                 To go further checkout:
                 http://pm2.io/
 
+## API-Nodejs
+
+### Run Server
+```bash
+   cd API-Nodejs
+   node app
+```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
