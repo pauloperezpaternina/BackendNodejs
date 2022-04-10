@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const UserScheme = new mongoose.Schema(
+const TracksScheme = new mongoose.Schema(
     {
         name: {type : String},
         age: {type:Number},
@@ -15,4 +15,4 @@ const UserScheme = new mongoose.Schema(
     }
 );
 
-module.exports = mongoose.model("users", UserScheme)
+module.exports = mongoose.model("users", TracksScheme)
