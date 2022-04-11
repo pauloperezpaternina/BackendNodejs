@@ -6,6 +6,12 @@ const dbConnect = require('./config/mongo')
 app.use(cors())
 
 const port = process.env.PORT || 3000
+/**
+ * Routes
+ */
+
+//TODO localhost/api/____
+app.use("/api", require("./routes"))
 
 app.listen(port, () => {
     console.log(`http://localhost:`+port)
