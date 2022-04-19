@@ -50,5 +50,10 @@ Runtime Edition
    cd API-Nodejs
    node app
 ```
+Now with nodemon
+```bash
+   cd API-Nodejs
+   npm run dev
+```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
