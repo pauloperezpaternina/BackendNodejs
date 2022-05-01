@@ -8,7 +8,7 @@ const { getItems } = require("../controllers/tracks");
  * 
  */
 
-router.get("/", getItems)
-router.get("/:id", getItems)
+router.get("/", getItems);
+router.get("/:id", getItems);
 
 module.exports = router
