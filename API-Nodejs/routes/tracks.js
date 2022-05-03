@@ -1,7 +1,7 @@
 const express = require("express");
 
 const router = express.Router();
-const { getItems } = require("../controllers/tracks");
+const { getItems, getItem, createItem } = require("../controllers/tracks");
 
 /**
  * http://localhost/tracks  GET, POST, DELETE, PUT
@@ -9,6 +9,7 @@ const { getItems } = require("../controllers/tracks");
  */
 
 router.get("/", getItems);
-router.get("/:id", getItems);
+//router.get("/:id", getItems);
+router.post("/", createItem);
 
 module.exports = router
